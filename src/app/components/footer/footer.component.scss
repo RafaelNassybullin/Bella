@@ -1,0 +1,56 @@
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15.417vw;
+  width: 100%;
+}
+
+.wrapper {
+  width: 75.000vw;
+  //height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14.306vw;
+  height: 5.417vw;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+ul {
+  width: 11.806vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  svg {
+    transition: 300ms ease-in-out fill;
+    fill: #FA4A0C;
+    width: 2.083vw;
+    cursor: pointer;
+
+    &:hover {
+      fill: brown;
+    }
+
+  }
+}
+
+p {
+  font-size: 1vw;
+}

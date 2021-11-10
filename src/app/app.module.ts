@@ -7,6 +7,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { HeroComponent } from './components/hero/hero.component';
 import { PhonesComponent } from './components/phones/phones.component';
 import { InstructionComponent } from './components/instruction/instruction.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InstructionComponent } from './components/instruction/instruction.compo
     NavigationComponent,
     HeroComponent,
     PhonesComponent,
-    InstructionComponent
+    InstructionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

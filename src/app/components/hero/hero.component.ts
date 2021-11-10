@@ -5,7 +5,7 @@ import {Component, Input, OnInit} from '@angular/core';
   template: `
     <main>
       <img [src]="imgHero"  alt="">
-      <div class="text">
+      <div class="text" [ngStyle]="{background:back}">
         <h3>{{uppendTitleHero}}</h3>
         <h1>{{titleHero}}</h1>
         <p>{{paragraphHero}}</p>
@@ -29,5 +29,6 @@ export class HeroComponent implements OnInit {
   paragraphHero!:string
   @Input()
   imgHero!:string
-
+  @Input()
+  back!:string
 }
