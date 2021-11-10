@@ -6,9 +6,11 @@ import {Component, Input, OnInit} from '@angular/core';
     <section>
       <div class="images">
         <div class="img-one">
+          <div class="shadow"></div>
           <img src="../../../assets/img/f799fc6631b7fc0fb7b47aa62e70711d.png" alt="">
         </div>
         <div class="img-two">
+          <div class="shadow"></div>
           <img src="../../../assets/img/48c2d30ceb6791639040e20fad31741b.png" alt="">
         </div>
       </div>

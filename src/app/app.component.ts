@@ -1,9 +1,12 @@
-import {Component, Input, Output} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   template: `
     <app-navigation></app-navigation>
+
+
+
     <app-hero [uppendTitleHero]="'Food app'"
               [titleHero]="'Why stay hungry when you can order form Bella Onojie'"
               [paragraphHero]="'Download the bella onoje’s food app now on'"
