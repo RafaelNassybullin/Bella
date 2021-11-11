@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
