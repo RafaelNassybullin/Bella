@@ -6,24 +6,22 @@ import {RouterOutlet} from "@angular/router";
   selector: 'app-root',
   template: `
     <app-navigation></app-navigation>
-
-    <div [@myAnimation]="getRouterOutletState(o)">
-        <router-outlet #o="outlet"></router-outlet>
-    </div>
+        <div [@myAnimation]="goRouterAnimaton(o)">
+            <router-outlet #o="outlet"></router-outlet>
+        </div>
     <app-footer></app-footer>
   `,
   styleUrls: ['./app.component.scss'],
   animations:[myAnimation]
 })
-export class AppComponent {
-  title = 'ngRxStore';
+export class AppComponent{
 
-  constructor() {}
+ goRouterAnimaton(outlet: RouterOutlet) {
 
-  public getRouterOutletState(outlet: RouterOutlet) {
-    return outlet.isActivated ? outlet.activatedRoute : '';
+    return outlet && outlet.activatedRoute;
   }
 
+  //outlet && outlet.activatedRoute
   //инжектить сервис с данными
 
 }

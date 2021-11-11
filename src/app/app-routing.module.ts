@@ -6,10 +6,11 @@ import {FaqComponent} from "./components/faq/faq.component";
 import {ContactsComponent} from "./components/contacts/contacts.component";
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
+  {path:'', component:HomeComponent, data:{}},
   {path:'products', component:ProductsComponent},
   {path:'faq', component:FaqComponent},
   {path:'contacts', component:ContactsComponent},
+  {path:'**', redirectTo:''},
 ];
 
 @NgModule({

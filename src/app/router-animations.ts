@@ -13,7 +13,6 @@ export const myAnimation = trigger("myAnimation", [
       optional: true,
     }),
     group([
-      // block executes in parallel
       query(
         ":enter",
         [
