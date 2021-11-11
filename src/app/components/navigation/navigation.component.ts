@@ -4,12 +4,12 @@ import {Component, OnInit} from '@angular/core';
   selector: 'app-navigation',
   template: `
     <nav>
-      <div class="logo"><a href="#"><img src="../../../assets/img/logo.png" alt=""></a></div>
+      <div class="logo"><a routerLink="/"><img src="../../../assets/img/logo.png" alt=""></a></div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Faq</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/products">Product</a></li>
+        <li><a routerLink="/faq">Faq</a></li>
+        <li><a routerLink="/contacts">Contact</a></li>
       </ul>
     </nav>`,
   styleUrls: ['./navigation.component.scss']

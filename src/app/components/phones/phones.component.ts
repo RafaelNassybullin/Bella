@@ -7,11 +7,11 @@ import {Component, Input, OnInit} from '@angular/core';
       <div class="images">
         <div class="img-one">
           <div class="shadow"></div>
-          <img src="../../../assets/img/f799fc6631b7fc0fb7b47aa62e70711d.png" alt="">
+          <img src="../../../assets/img/left.webp" alt="">
         </div>
         <div class="img-two">
           <div class="shadow"></div>
-          <img src="../../../assets/img/48c2d30ceb6791639040e20fad31741b.png" alt="">
+          <img src="../../../assets/img/right.webp" alt="">
         </div>
       </div>
       <div class="how-it-works">

@@ -8,3 +8,28 @@
 body{
   font-family: Roboto, sans-serif;
 }
+
+
+.example-page{
+  height: 26vw;
+  //background: darkseagreen;
+  color: #ffffff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  h1{
+    font-size: 5vw;
+    text-shadow:  20px 20px 60px #4b4a4a,
+             -20px -20px 60px #282323;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
