@@ -5,14 +5,24 @@ footer {
   justify-content: center;
   height: 15.417vw;
   width: 100%;
+  @media(max-width: 433px) {
+    justify-content: space-between;
+    height: 82.417vw;
+  }
 }
 
 .wrapper {
   width: 75.000vw;
-  //height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media(max-width: 433px) {
+    width: 97vw;
+    flex-direction: column;
+    height: 80vw;
+    margin-top: 80vw;
+  }
 }
 
 .logo {
@@ -21,6 +31,10 @@ footer {
   justify-content: center;
   width: 14.306vw;
   height: 5.417vw;
+  @media(max-width: 433px) {
+    width: 44.306vw;
+    height: 21.417vw;
+  }
 
   img {
     width: 100%;
@@ -35,22 +49,35 @@ ul {
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  @media(max-width: 433px) {
+    width: 50.806vw;
+  }
 }
 
 li {
+  @media(max-width: 433px) {
+
+  }
+
   svg {
     transition: 300ms ease-in-out fill;
     fill: #FA4A0C;
     width: 2.083vw;
     cursor: pointer;
+    @media(max-width: 433px) {
+      width: 8.083vw;
+    }
 
     &:hover {
       fill: brown;
     }
-
   }
 }
 
 p {
   font-size: 1vw;
+  @media(max-width: 433px) {
+    font-size: 4vw;
+    margin-bottom: 15vw;
+  }
 }

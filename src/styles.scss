@@ -11,17 +11,23 @@ body{
 
 
 .example-page{
-  height: 26vw;
-  //background: darkseagreen;
+  height: 37vw;
   color: #ffffff;
   display:flex;
   align-items:center;
   justify-content:center;
   position: relative;
+  @media(max-width: 433px){
+      height: 74vw;
+  }
   h1{
+    text-align: center;
     font-size: 5vw;
     text-shadow:  20px 20px 60px #4b4a4a,
              -20px -20px 60px #282323;
+    @media(max-width: 433px){
+        font-size: 10vw;
+    }
   }
   img{
     width: 100%;
